@@ -1,0 +1,56 @@
+Data Types in Java
+
+ int   up to 2147483647
+ Long  between 2147483647*10000000
+
+- long can slow down programs.
+- both int and long can store negatives but not fractional.
+- double accepts fractional. Slows down programs.
+  - In division, one of the numbers at least should be typed as double, or the
+    result will return as an int
+     double division = 5/2.5;  => 2.5
+- String stores text values.
+  - When defining Strings, we need to use double quotes around the text, like 
+    this:
+    String name = "Adam";
+  - Single quotes are used for defining single characters, like this:
+    char grade = ’A’;
+    
+- char stores single letters.
+- boolean stores true or false values.
+
+
+Primitive Types in Java
+  int
+  boolean
+  byte
+  char
+  short
+  long 
+  float
+  double
+
+
+  Overflow and underflow   
+    Overflow is to try and use a number over the max limit, while underflow
+    is to try and use a number below the min limit. 
+    
+
+
+  byte
+    - A byte occupies 8 bits. So we say that a byte has a width of 8.
+
+  Short 
+    - Occupies 16 bits, therefor it has a width of 16.
+
+  int
+   - occupies 32 bits, therefor it has a width of 32.
+
+  long
+   -  occupies 64 bits, therefor it has a width of 64.
+    long myLongValue = 100L; 
+    We must include an uppercase next to long values.
+  boolean
+
+
+ 

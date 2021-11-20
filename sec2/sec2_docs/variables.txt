@@ -1,0 +1,65 @@
+Variables
+  - Variables are special entities used to store data.
+  - In Java, all data is stored in variables.
+  - In Java, every variable has three important properties: type, name, and 
+    value.
+  - A variable's type determines the kinds of values/data that can be stored 
+     in it.
+  - The value is the specific object, data, or information stored in the 
+    variable.
+  - Every object in Java has a certain type. Some examples include integer, 
+    fractional number, text, Cat, House, etc.
+  - A variable also has a type. It can only store values whose type is the same 
+    as its own.
+  - To create (or declare) a variable, we use the name of the type: 
+      TypeName variableName
+    
+  -To declare a variable:
+      int num;
+      String name;
+      double num2;
+    
+     // multiple declaration:
+      int a, b, c;
+     
+  - Initialize a variable, is basically giving our variable an initial value.
+     // Initialize a variable example:
+     name = "John Smith"; 
+
+  - Doubles are fractional, or real, numbers.
+  - We use a special operation (assignment) to assign values to variables.
+  - Assignment copies values from one variable into another.
+  - Expression. Expression is a construct that evaluates a single value;
+  - "John Smith" in the above example is an expression. 
+    Example:
+      = is an assignment operator.
+
+      // Assign the value 3 to variable num1
+      int num1 = 3;
+
+      int num2 = num1 + 1;
+
+  - Variable names in Java follow camelCase (pascal) naming convention.
+  - Variable names cannot contain spaces, +, -, etc. It's best to just use 
+    letters and numbers in a variable’s name.
+  - Variable names do not accept a number as the first letter.
+  
+  - Updating variables
+   num1 = num1 + 5;
+   num1 = 10;
+
+  
+  String Variable
+   - A variable for storing string values.
+    
+    // Declare a bus driver variable
+    String driver;
+
+    // Initialize driver variable with a name string value
+    driver = "Hamish";
+      - "Hamish" here is a string literal, a string refers to the name Hamish.
+      - A String literal in Java, is any sequence of characters surrounded by
+        double quotes. It's value cannot be changed, unlike a variable.
+
+    // assignment statement 
+    int emailAddress = "john@email.com";

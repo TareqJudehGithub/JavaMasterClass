@@ -1,0 +1,9 @@
+Casting
+ - Casting is converting data types in Java.
+ 
+ int vs double
+  if we cast from double to int, in this operation we will cast the fractions
+  double i = 2.5;
+  int x = i;
+  x => 2;
+  
