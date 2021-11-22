@@ -1,0 +1,18 @@
+Boolean Expressions
+ - Boolean expressions compare two value for true or false.
+ - Double equal signs for equality comparison.
+
+ - Arithmetic Operators
+    3 < 5   => true
+    8 == 9   => false
+    7 > 3   => true
+  
+  > 
+  >=
+  <
+  <=
+  ==
+  !=
+
+  Arithmetic operators  order 
+   (*, /, +, -)

@@ -38,19 +38,63 @@ Primitive Types in Java
 
 
   byte
-    - A byte occupies 8 bits. So we say that a byte has a width of 8.
+    - A byte occupies 8 bits (1 byte). So we say that a byte has a width of 8.
 
   Short 
-    - Occupies 16 bits, therefor it has a width of 16.
+    - Occupies 16 bits (2 bytes), therefor it has a width of 16.
 
   int
-   - occupies 32 bits, therefor it has a width of 32.
+   - occupies 32 bits (4 bytes), therefor it has a width of 32.
+   - int max value is 2.14 billion.
 
   long
-   -  occupies 64 bits, therefor it has a width of 64.
+   -  occupies 64 bits (8 bytes), therefor it has a width of 64.
     long myLongValue = 100L; 
     We must include an uppercase next to long values.
   boolean
+
+Floating Point Numbers
+ - Floating point numbers also known as real numbers.
+ - Floating point numbers are usually used for more precision
+   calculations.
+ - float & double are examples of floating point numbers.
+ 
+  - float 
+    - A single precision float number. 
+    - Occupies 32 bits (4 bytes).
+      float someNum = 5f;
+ 
+  - double. 
+    - A double precision float number.
+    - Occupies 64 bits (8 bytes).
+      double someNum = 5d;
+  
+  - char
+    - char stores a single character.
+    - char Occupies 1 byte (8 bits), but in Java a char occupies 16 bits (2 bytes);
+      and that is because it allows us to store Unicode characters.
+
+  - boolean
+   - boolean evaluates an expression and return wether a true of false value.
+  
+  - String
+   - In Java, String is not considered as a primitive type, but a class.
+   - A String is a sequence of characters.
+   - When concatenating a String with an int, Java converts to int to a String.
+   - Strings are immutable.
+      
+   - Occupies 
+
+
+  The most common data types used in Java are int, String, double, and bool.
+
+  *** If we did not specify letter (L, f, and d) after that respective values,
+  these long, float, and double values will  be treated as integers.
+
+  
+
+  
+
 
 
  

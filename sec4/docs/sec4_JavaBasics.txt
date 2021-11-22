@@ -1,0 +1,25 @@
+Keywords in Java
+ - There are 57 Keywords in Java.
+ - Keywords are reserved and cannot use keywords naming variables and class names.
+ - Keywords examples are byte, float, if, and for.
+ 
+Naming convention
+ - Developers show follow naming conventions.
+ - Variables naming conventions.
+    - variables should be meaningful and descriptive.
+
+White space
+ - Any extra spacing horizontally or vertically around java source code.
+ - The space between keywords and variables and values.
+ - A Java statement can be written in multiple lines.
+
+Code Block  {}
+ - Code block allows more than one statement to be executed.
+ - Code blocks are usually used in If statements, classes, and Methods.
+
+Scope
+ - Scope refers to when a variable can be accessed.
+ - Scopes defines the accessability of variables.
+
+
+

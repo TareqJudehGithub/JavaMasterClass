@@ -1,0 +1,7 @@
+Scopes
+
+  Variable scope
+   - Variable scope is the block/range of code that a variable can be  
+     referred too.
+   - A set of curly braces defines the bound of the scope.
+   - 

@@ -1,0 +1,22 @@
+Statement in Java
+  A complete unit of execution.
+   1. declaration statement. To declare a variable.
+    int someNum;
+  
+   2. Expression statement:
+    - Assignment expressions
+        someNum = 5;
+
+    - increment operators
+        someNum ++;
+        someNum += 4;
+
+    - Method calls
+        System.out.println(someNum);
+
+    - Object creation expressions
+        Car ownersCar = new Car();
+    
+    3. Control Flow Statement.
+    
+

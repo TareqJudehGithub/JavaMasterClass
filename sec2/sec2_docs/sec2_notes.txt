@@ -1,0 +1,6 @@
+Comments 
+ - Comments are for the user only, they are ignored my the compiler.
+ - a one line comment in Java is double //, while a multiple line comment
+   is /* */
+ - Comments describes the code.
+ 

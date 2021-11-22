@@ -1,0 +1,7 @@
+Code block {}
+ - Code block allows more than one statement to be executed -a block of code.
+
+ block format
+  if (expression) {
+    // put one or more statements here
+  }

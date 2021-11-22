@@ -1,0 +1,4 @@
+Memory;
+ - When a variable is declared in code, a bit of memory that isn't already being 
+   used is assigned to it.
+ - 

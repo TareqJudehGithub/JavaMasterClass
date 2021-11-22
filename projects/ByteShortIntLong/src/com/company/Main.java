@@ -34,7 +34,15 @@ public class Main {
     // Casting (converting data types)
     int myTotal = 100;
     byte myNewTotal = (byte)(myTotal / 2);
-        System.out.println(myNewTotal);
+    System.out.println(myNewTotal);
+
+    // Primitive Type Challenge
+    byte byteVal = 5;
+    short shortVal = 5;
+    long longVal = 5000L + (byteVal + shortVal) * 10;
+    System.out.println(longVal);
+
+
 
     }
 }

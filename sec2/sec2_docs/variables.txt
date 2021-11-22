@@ -11,6 +11,13 @@ Variables
     fractional number, text, Cat, House, etc.
   - A variable also has a type. It can only store values whose type is the same 
     as its own.
+  - Expression. Expression is a construct that evaluates a single value. It is 
+    formed by combining variables, literals, methods that return values, and 
+    operators.
+      name = "John Smith"; 
+      int myValue = 10 + 5;
+      "John Smith" and  10 + 5 in the above example is an expression. 
+      
   - To create (or declare) a variable, we use the name of the type: 
       TypeName variableName
     
@@ -21,16 +28,16 @@ Variables
     
      // multiple declaration:
       int a, b, c;
+
      
   - Initialize a variable, is basically giving our variable an initial value.
      // Initialize a variable example:
      name = "John Smith"; 
+     "John Smith" in the above example is an expression. 
 
   - Doubles are fractional, or real, numbers.
   - We use a special operation (assignment) to assign values to variables.
   - Assignment copies values from one variable into another.
-  - Expression. Expression is a construct that evaluates a single value;
-  - "John Smith" in the above example is an expression. 
     Example:
       = is an assignment operator.
 
@@ -38,11 +45,12 @@ Variables
       int num1 = 3;
 
       int num2 = num1 + 1;
-
+  - 
   - Variable names in Java follow camelCase (pascal) naming convention.
   - Variable names cannot contain spaces, +, -, etc. It's best to just use 
     letters and numbers in a variable’s name.
   - Variable names do not accept a number as the first letter.
+  - boolean naming convention usually start with isVarName.
   
   - Updating variables
    num1 = num1 + 5;
@@ -61,5 +69,5 @@ Variables
       - A String literal in Java, is any sequence of characters surrounded by
         double quotes. It's value cannot be changed, unlike a variable.
 
-    // assignment statement 
+    // assignment statement (also known as just statement)
     int emailAddress = "john@email.com";

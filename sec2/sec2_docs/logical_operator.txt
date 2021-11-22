@@ -1,0 +1,32 @@
+Logical Operators
+ - Operators in Java are special symbols that perform specific operations on
+   one, two, or three operands, and return a result. 
+    + - * / && || !=
+ - Operand. an object that it manipulated by an operator. 
+    int sum = 5 + 10 = 15; In this 
+ - Operators in an expression indicates which operations to apply to the operands.
+ - Associativity. Associativity is the direction of execution of operators and can
+   be either left to right or right to left. associativity decides the order in 
+   which operators are evaluated.
+ AND &&
+  AND combines two or more expressions.
+    - Returns true if all expressions were true, otherwise it returns false.
+
+  OR  ||
+    - AND combines two or more expressions.
+    - Returns true if only one of the expressions is true.
+
+ - NOT !
+   - Not turns an expression into it's opposite value.
+  
+ Order of Operations (for Logical Operators)
+  - The ! operator will be evaluated first, then &&, and finally ||. 
+  - To change the order of operations you can surround expressions in 
+    parentheses.
+  
+  So, the order of operations is:
+
+    1. Parentheses
+    2. NOT !
+    3. AND &&
+    4. OR ||

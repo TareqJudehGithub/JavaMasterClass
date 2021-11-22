@@ -1,0 +1,12 @@
+Methods
+ - Methods are a way to organize code and reduce duplication and repetition.
+ - Methods structure
+ - Methods that do not return values are called procedures.
+ - Methods that do return values are called functions.
+  <MODIFIER> <RETURN TYPE> methodName(<PARAMETERS>){
+    // method body
+  }
+
+  public static void main(String[] args) {
+
+  }
