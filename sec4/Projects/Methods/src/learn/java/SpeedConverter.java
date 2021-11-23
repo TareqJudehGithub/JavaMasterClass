@@ -15,6 +15,7 @@ public class SpeedConverter {
             return  -1;
         }
         else {
+
             return kilometersPerHour / 1.609;
         }
 
