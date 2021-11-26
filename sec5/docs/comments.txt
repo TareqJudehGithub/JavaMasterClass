@@ -1,0 +1,19 @@
+Comments in Java
+ - Comments describes the code.
+ - Comments are for the user only, they are ignored by the compiler.
+ - A one line comment in is double //
+ - A multiple line comment is /* */
+ 
+ Java Documentation(doc) Comments
+  - Also known as JavaDocs.
+  - Used for describing classes and methods in Java.
+  - JavaDocs structure
+      /**
+      - First part of the JavaDoc:
+        * General description of a function
+      - Second part of the JavaDoc:
+        * @param  param_1  description
+        * @param  param_2  description
+      - Third & final part of the JavaDoc: 
+      * @return describing of return value
+      */

@@ -1,0 +1,11 @@
+Built-in methods in Java
+ Also known as classes, built-in methods are methods or functions we can call and use
+ in our code.
+Classes in Java 
+ - classes (i.e Math) contains methods.
+ - Field summary (function) is a name of variable that is part of the class.
+    - Field holds information in Java, like Math.E and Math.PI
+ - Methods summary. Has a list of all summaries of functions that Java provides.
+    - Methods summary in Java perform a task. Like Math.random()  Math.floor().
+
+ 
