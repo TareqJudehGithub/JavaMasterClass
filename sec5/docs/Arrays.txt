@@ -1,0 +1,8 @@
+Arrays in Java
+  - An array in Java, is structured type that can hold many elements
+    provided they are all of the same data type.
+  - Declaring an array in Java:
+      int [] numbers = {95, 45, 77, 61, 84};
+  - To access an array element, we do that by providing it's index number:
+      int firstItem = numbers[0];
+      
