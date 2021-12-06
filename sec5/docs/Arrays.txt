@@ -5,4 +5,5 @@ Arrays in Java
       int [] numbers = {95, 45, 77, 61, 84};
   - To access an array element, we do that by providing it's index number:
       int firstItem = numbers[0];
-      
+  
+  

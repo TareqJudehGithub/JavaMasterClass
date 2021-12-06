@@ -9,8 +9,6 @@ public class Arrays {
         // prints the array location in memory:
         System.out.println(newOutlet + "\n");
 
-
-
         // Iterate over arrays elements and print them all:
         for (String value : newOutlet) {
             System.out.println(value);
