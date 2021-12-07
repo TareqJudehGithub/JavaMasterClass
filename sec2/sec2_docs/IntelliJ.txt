@@ -1,0 +1,8 @@
+IntelliJ
+ - Project structure files and folders
+  - src folder  source folder containing our main code to the program.
+  - Class files. All codes we write are inside classes.
+  - class name of the main class should match the class file name.
+  - code is compiled inside the main function.
+  -
+
