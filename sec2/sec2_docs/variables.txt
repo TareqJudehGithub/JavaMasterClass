@@ -51,6 +51,9 @@ Variables
     letters and numbers in a variable’s name.
   - Variable names do not accept a number as the first letter.
   - boolean naming convention usually start with isVarName.
+  - Java is strongly typed, meaning you cannot change/update value type for a defined
+    variable.
+  - Java is case sensitive.  int number; is not int Number;
   
   - Updating variables
    num1 = num1 + 5;

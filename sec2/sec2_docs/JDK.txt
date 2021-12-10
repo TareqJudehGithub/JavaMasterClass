@@ -20,4 +20,4 @@ Java Development Kit (JDK)
 
         Java (source) code => Compiler (javac) => Bytecode => JVM => Machine Code
 
-
+  - javac compiles the code, while java runs it.
