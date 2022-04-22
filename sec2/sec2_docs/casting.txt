@@ -2,7 +2,8 @@ Casting
  - Casting is converting data type into another in Java.
  
  int vs double
-  if we cast from double to int, in this operation we will cast the fractions
+  if we cast from double to int, in this operation we will cast the fractions and
+  eventually ending losing data. 64 bits => 32 bits
   double i = 2.5;
   int x = i;
   x => 2;

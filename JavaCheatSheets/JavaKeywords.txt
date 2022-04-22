@@ -1,0 +1,20 @@
+Java key words
+
+class
+ - Used to define a class.
+
+name of the class  
+ public class className {
+
+ }
+ - Class name should match the file class name.
+
+static
+ - Indicates that this method belongs to the class rather than an object you can create 
+   from this class.
+
+void
+ - Void means that this main method does not return anything. It only returns
+   out an action (text or a number).
+main
+ - The name of the function/method

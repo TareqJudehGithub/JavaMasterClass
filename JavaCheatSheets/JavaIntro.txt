@@ -1,0 +1,49 @@
+What is Java?
+  - Java is a programming language, found by Sun Microsystems.
+  - Java was released in 1995, by James Gosling.
+  - Java was first introduced as a plugin/App for web browsers serving Adobe Flash.
+  - Java is one of the top 3 programming languages.
+  - Java is an object-oriented programming language (OOP).
+  - Java is one of the most popular programming languages.
+  - Java is an object-oriented, platform-independent programming language.
+  - object-oriented means it uses objects to model the desired tasks.
+  - Objects 
+   - Objects have properties and behavior. Objects can be anything.
+   - A car has properties like color, model, production year. A car also has
+     a behavior like the start/stop engine, lights on/off, and other behaviors.
+   - By using other behaviors, properties and behaviors can interact with each 
+     other.
+  
+  - Platform-independent. 
+   - The same code can run on any device (Windows, Mac, Linux).
+   - Write once run everywhere.
+  
+  - Interpreted
+   - Bytecode that can be easily translated into machine code.
+
+  - Concurrent 
+   - Not sequential execution.
+   - Multitasking.
+
+  - Security
+   - Memory segments are not accessible, built-in security
+  
+  Where Java is used?
+   - Web development
+   - Mobile development
+   - Enterprise
+
+ Why Java?
+  - Java is a high-level language, easy to learn.
+  - One of the most popular languages.
+  - Massive enterprise usage.
+  - Community support.
+  - Portable.
+  - Java is used in Android development.
+  - Java is Constantly updating.
+  - Easy to switch to from other languages.
+
+
+
+  
+

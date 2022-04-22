@@ -1,0 +1,60 @@
+Object-Oriented Programming (OOP)
+ One of the key characteristics of Java is is that it applies an object-oriented
+ approach. This may be different from other languages you may be familiar with.
+
+ Benefits of an object-oriented programming approach include:
+
+  Better software reusability
+  Better maintainability
+  Reduced cost of developing software
+
+What is an Object?
+ So what is an object? Essentially, it is a data structure that we create that 
+ bundles together and encapsulates two key things:
+    - The state of the object (represented by variables).
+    - The behavior of the object (modeled with methods).
+ 
+ We model software as objects to improve readability, maintainability and 
+ reusability.
+
+Classes vs Objects
+
+ - Classes are blue prints to create multiple objects.
+ - The class defines the state and behavior that an object of that class will 
+   have.
+ - A single class can instantiate (or create) multiple objects of the same type.
+ - Each instance of a class is unique, though they all follow the same blueprint 
+   defined in the class.
+ - Let's take an example of a House class with the following attributes (state):
+   - color, flooring, and countertops. 
+   - The House has 3 objects, each of these objects are instantiated from the 
+     House class, and will all have the same state variables. 
+   - Each object can be customized with unique variables, so these 3 houses can
+     have different colors, flooring, or even countertops. 
+
+- Objects of one type in Java can all have different state, but they all have the
+  behavior.
+
+- Annotation in Java
+ - @Override
+  - @Override provides additional meaning to the objects instantiated from the 
+    class. If we don't use @Override and print out an object, we will not be 
+    able to see it's variables, instead we will only see it's location in memory.
+
+ Terms to remember
+  - Instantiation: Creating instance(s) of the class.
+  - Instances:  Objects created from a class (instances of the class).
+  - To model:  to set a behavior of an object.
+  - The 'this' keyword refers to the object created and NOT the class.
+  - Methods: A type of function used to model the behavior of the class.
+  - class name: Used to identify not only the class itself, but also the 
+    associated Java file.
+  - Instance and class variables: Used to provide state for the objects.
+  - Class constructor: Used to initialize objects during instantiation.
+  - Class variables (class instances) access should be set to private to 
+    support data encapsulations (preventing access from outside the class).
+  - Abstraction “displays” only the relevant attributes of objects and “hides” 
+    the unnecessary details. 
+  
+  
+

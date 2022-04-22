@@ -1,0 +1,11 @@
+ Garbage Collection (GC) 
+
+ - A background process called Garbage Collection (GC).
+ - GC checks all instantiated objects, and destroys them if they do not 
+  have any references—thus freeing up memory, even without any active management 
+  on the part of the developer.
+
+ - Objects must be destroyed when they are no longer needed in order to free up
+   memory, this preventing crashing due to running out of memory.
+ - GC runs as a background task.
+ - GC only removes objects that no longer have references to them.

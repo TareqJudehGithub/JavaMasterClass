@@ -1,0 +1,64 @@
+- Java is case-sensitive.
+- in Java, 'functions' are also called 'methods'). A method is part of a class. 
+  In other words, a class is divided into methods and methods are divided into 
+  commands."
+
+- classes and packages as ways of organizing our code. 
+    public class GettingStarted {
+    // Anything between the curly braces is inside the class!
+      public static void main(String[] args) {
+        System.out.println("Hello, world!");
+      }
+    }
+
+Access modifiers
+- Access modifiers determine how other classes are allowed to access your 
+  variables and methods.
+- The keyword public is an example of an access modifier. 
+- Access modifiers control things like whether the data inside of a class can be 
+  accessed only by other code inside of the class or also by code elsewhere in 
+  the application.
+
+Types of Access Modifiers
+ - Public
+  - Public means the class can be accessed from everywhere
+ 
+ - Private
+  - Private means only the defining class can access the data.
+  - Private access modifier provides security, by not allowing other classes 
+    to change the data directly. Instead, they must make changes to the data via 
+    the provided methods only inside its respective class.
+
+ - Protected
+  - Protected means that access is restricted to the defining class, package, or
+    subclass.
+
+ - Default
+  - Default means access is restricted to the defining class or the package. 
+  -  This can be used when we have classes inside the same package that we may 
+     want to expose data and methods too.
+
+  Here's a summary in a table format for your reference:
+
+Access	Inside class/	Inside package/	Outside package by subclass/ Outside package
+Private	    Yes	            No	              No	                      No
+Default	    Yes	            Yes	              No	                      No
+Protected	  Yes	            Yes	              Yes                       No
+Public	    Yes	            Yes	              Yes                     	Yes
+
+
+Access Modifiers on Methods
+ - We can also apply access modifiers to methods.
+
+    void methodName()  // The default is no access modifier
+    protected void methodName()
+    public void methodName()
+    private void methodName()
+    
+Access Modifiers on Variables
+ - We can apply access modifiers to variables as well! 
+
+  private int number;
+  int number3;  // Default is no access modifier
+  protected int number2;
+  public int number1;

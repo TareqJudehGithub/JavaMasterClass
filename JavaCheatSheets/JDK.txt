@@ -1,0 +1,45 @@
+Java Development Kit (JDK)
+  JDK includes two main tools:
+    1 - Java Runtime Environment (RJE)
+      - JRE is needed to run any java applications on web pages.
+      - Includes the code behind all the variables types and built-in functions
+        (ex. the println() function).
+      - Includes Java Virtual Machine (JVM), which allows Java code to run on any
+        platform.
+
+    2 - Java Compiler (javac)
+        - javac is needed to develop programs and apps in java.
+        - A Compiler is a special type of program that translates programming 
+          language (source) code into code (machine code) that a computer can 
+          understand and execute.
+        - javac (the Java Compiler) reads source code, and translates it into
+          Bytecode.
+        - The Java Virtual Machine (JVM) in return, converts Bytecode into Machine 
+          code (0s and 1s). JVM is compatible with any OS its on. So Java programs
+          can run on any device.
+
+        Java (source) code => Compiler (javac) => Bytecode => JVM => Machine Code
+
+  - javac compiles the code, while java runs it.
+
+
+  Compilers
+ - A programming language can be understood by both humans and compilers.
+ - A compiler is a special program that converts a program written in a 
+   programming language into a series of machine codes." 
+ - A programmer usually writes a program in a programming language and then 
+   runs a compiler, which turns the program code files written by the programmer 
+   into a single file with machine code – the final (compiled) program.  
+   Program in C++  ==> Compiler  ==>  Machine code 
+ - A Java compiler doesn't compile all the classes into one machine-code program. 
+ - Java complier compiles every class independently  into a special intermediate 
+   code (bytecode).
+ - The bytecode is compiled into machine code when the program is started.
+ - Java virtual machine (JVM)  must be started first when you need to run a 
+   bytecode program.
+ - JVM will compile the bytecode into machine code before the program is 
+   executed.
+ - This approach allows programs written in Java to be run on virtually any 
+   device: computers, smartphones, ATMs, toasters, or even credit cards!
+ - JVM is the reason why all Android programs are also written in Java.
+ 

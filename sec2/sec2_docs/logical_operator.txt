@@ -14,7 +14,7 @@ Logical Operators
 
   OR  ||
     - AND combines two or more expressions.
-    - Returns true if only one of the expressions is true.
+    - Returns true if at least one of the expressions is true.
 
  - NOT !
    - Not turns an expression into it's opposite value.

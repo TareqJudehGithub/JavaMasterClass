@@ -1,0 +1,50 @@
+Functions
+ 
+ - Functions perform actions.
+
+  - Built-in Java function
+    - println() is Java built-in function.
+  
+  Function structure
+
+    public void functionName(params) {
+      //function body
+      return something
+
+
+    }
+   Function Definition:  
+    - Tells us what a function does and how it can be used.
+    - Shows us the code a function contains, and tells us if it is accessible or
+      if it contain any data.
+
+    - public   Access modifier
+    - void     Return type. void means this function does not 'return' any data.
+    - function name.  How we can call our function.
+
+    // Calling the function
+    functionName();
+  
+  - parameters
+      - Variables we can place inside our function definition, that our function
+        can use.
+  
+  - Arguments
+      - The actual values that are passed in to our function when we call it.
+      - Arguments are assigned to parameters when running the function.
+      - Arguments data type in order should match the data type of the 
+        parameters the Arguments are assigned to.
+      - Arguments should match the order and type of parameters in the 
+        function definition.
+
+      - return
+         return keyword is used to return a function result outside it's 
+         function definition.
+      - We need to remove void if we need to use return keyword. For example
+        To return a String, the function needs a return type of String.
+          public static String(String username){
+            return "Hello" + username;
+          }
+          
+      - Replacing void with String type, returns a String value, and int returns
+        an int value, and so forth.

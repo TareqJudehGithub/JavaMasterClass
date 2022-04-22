@@ -1,0 +1,28 @@
+What is JavaDoc?
+ JavaDoc is a documentation generator that produces a searchable HTML document 
+ defining the classes and interfaces of an application. This makes it easy for 
+ you and other developers to understand the API of an application.
+
+JavaDoc Comments
+ The JavaDoc tool reads through Java files and parses certain parts of the code 
+ to automatically generate useful documentation. One part of the code that will 
+ be picked up by JavaDoc is a JavaDoc comment (or simply doc comment).
+
+JavaDoc comments are typically added:
+
+ - At the top of a class, right before the class name
+ - For each method in a class.
+ 
+Syntax
+ JavaDoc comments use a simple syntax that supports multi-line HTML format 
+ documentation. Here's what the syntax looks like:
+    /** documentation */
+
+  And here's an example:
+
+    /** This program HelloWorld produces a standard output
+    *  displaying "Hello World"
+    * 
+    * @author The author of the class
+    * @see A reference to another class
+    */

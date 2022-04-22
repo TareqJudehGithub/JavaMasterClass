@@ -30,7 +30,7 @@ Variables
       int a, b, c;
 
      
-  - Initialize a variable, is basically giving our variable an initial value.
+  - Initialize a variable, is basically giving a predefined variable an initial value.
      // Initialize a variable example:
      name = "John Smith"; 
      "John Smith" in the above example is an expression. 
@@ -51,7 +51,7 @@ Variables
     letters and numbers in a variable’s name.
   - Variable names do not accept a number as the first letter.
   - boolean naming convention usually start with isVarName.
-  - Java is strongly typed, meaning you cannot change/update value type for a defined
+  - Java is strongly typed, meaning you cannot change/update a value type for a defined
     variable.
   - Java is case sensitive.  int number; is not int Number;
   
@@ -59,15 +59,14 @@ Variables
    num1 = num1 + 5;
    num1 = 10;
 
-  
   String Variable
-   - A variable for storing string values.
+   - A variable for storing text values.
     
     // Declare a bus driver variable
-    String driver;
+    String busDriver;
 
     // Initialize driver variable with a name string value
-    driver = "Hamish";
+    busDriver = "Hamish";
       - "Hamish" here is a string literal, a string refers to the name Hamish.
       - A String literal in Java, is any sequence of characters surrounded by
         double quotes. It's value cannot be changed, unlike a variable.

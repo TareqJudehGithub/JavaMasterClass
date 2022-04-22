@@ -1,4 +1,6 @@
 String 
- - Text
- String var = value;
+ - For storing text
+ String variableName = value;
+ 
+
  

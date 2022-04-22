@@ -1,0 +1,13 @@
+Java short commands List:
+
+- psvm
+   deploys:
+    public static void main (String[] args) {
+    {
+- sout
+    deploys:
+     system.out.println();
+
+     }
+
+  

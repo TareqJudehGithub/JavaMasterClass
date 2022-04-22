@@ -1,0 +1,92 @@
+Operators
+ - Operators are used to perform operations on variables and values.
+ - Assignment Operators
+    = is the Assignment operator
+      - int number = 5;
+  
+- Arithmetic Operators
+    + add
+     - Used in addition operations and also in strings concatenations.
+    - subtract
+     - Used  in subtraction operations
+    * multiple
+     - Used in multiplication operations
+    / division
+
+    % remainder
+     - returns the remainder of an operation
+     5 % 3 = 2
+     4 % 2 = 0
+
+
+
+ - Unary Operators
+    int price = -(-5);
+    >>> 5
+
+    ++ increments value by 1
+     int number = 5;
+     number ++;
+     number value is increased by 1   5 + 1 = 6
+
+    -- decreases value by 1;
+
+    += add value
+     number += 10;
+
+    -=, *= does the same.
+
+
+ - Equality and Relational Operators
+
+    ! inverts the value of a boolean
+
+    boolean isRaining = true;
+    !isRaining = false;
+
+    == double equals compares two values or variables.
+
+    > greater than
+    < smaller than
+    => equal or greater than
+    =< equal or smaller than
+    != not equal to
+    instanceof  data type comparison
+      
+ - Ternary Operators
+  variableName = expression? value1 : value2;
+
+ - Logical Operators
+ 
+ - Operators in Java are special symbols that perform specific operations on
+   one, two, or three operands, and return a result. 
+    + - * / && || !=
+ - Operand. an object that it manipulated by an operator. 
+    int sum = 5 + 10 = 15; In this 
+ - Operators in an expression indicates which operations to apply to the operands.
+ - Associativity. Associativity is the direction of execution of operators and can
+   be either left to right or right to left. associativity decides the order in 
+   which operators are evaluated.
+ AND &&
+  AND combines two or more expressions.
+    - Returns true if all expressions were true, otherwise it returns false.
+
+  OR  ||
+    - AND combines two or more expressions.
+    - Returns true if at least one of the expressions is true.
+
+ - NOT !
+   - Not turns an expression into it's opposite value.
+  
+ Order of Operations (for Logical Operators)
+  - The ! operator will be evaluated first, then &&, and finally ||. 
+  - To change the order of operations you can surround expressions in 
+    parentheses.
+  
+  So, the order of operations is:
+
+    1. Parentheses
+    2. NOT !
+    3. AND &&
+    4. OR ||
+
