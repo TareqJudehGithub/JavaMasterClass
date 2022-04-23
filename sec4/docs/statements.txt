@@ -17,6 +17,4 @@ Statement in Java
     - Object creation expressions
         Car ownersCar = new Car();
     
-    3. Control Flow Statement.
-    
 

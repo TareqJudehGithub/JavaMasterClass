@@ -1,0 +1,12 @@
+Scopes & Blocks
+
+  Block
+   - Are the range of where we can access our variables.
+   - A block starts with an opening curly braces, and ends with a closing
+     curly braces.
+
+  Variable scope
+   - Variable scope is the block/range of code that a variable can be  
+     referred too.
+   - A set of curly braces defines the bound of the scope.
+   - Variables outside the scope cannot be access.

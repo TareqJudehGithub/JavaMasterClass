@@ -4,4 +4,10 @@ Code block {}
  block format
   if (expression) {
     // put one or more statements here
+  else if {
+     // put one or more statements here
+  }
+  else {
+    // Do some action if non of the conditions above are met.
+  }
   }

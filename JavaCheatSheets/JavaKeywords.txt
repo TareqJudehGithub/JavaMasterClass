@@ -18,3 +18,8 @@ void
    out an action (text or a number).
 main
  - The name of the function/method
+
+
+instanceof 
+ - checks whether an instance of part of a class or not, by returning a true/false boolean value.
+    System.out.println("instanceof: " + (carModel instanceof String));

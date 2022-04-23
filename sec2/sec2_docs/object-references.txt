@@ -1,5 +1,5 @@
 Object References (OR)
- - Object is an instance of a class, store somewhere in memory.
+ - Object is an instance of a class, stored somewhere in memory.
  - A reference is used to point to that memory location where an object is stored.
  - How to create an object out of a class in Java:
     className objectName = new ClassName();

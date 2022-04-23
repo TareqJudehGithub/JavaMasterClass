@@ -3,11 +3,12 @@ Logical Operators
    one, two, or three operands, and return a result. 
     + - * / && || !=
  - Operand. an object that it manipulated by an operator. 
-    int sum = 5 + 10 = 15; In this 
+    int sum = 5 + 10 = 15; 
  - Operators in an expression indicates which operations to apply to the operands.
- - Associativity. Associativity is the direction of execution of operators and can
-   be either left to right or right to left. associativity decides the order in 
-   which operators are evaluated.
+ - Associativity. 
+    - Associativity is the direction of execution of operators and can
+   be either left to right or right to left. 
+    - Associativity decides the order in which operators are evaluated.
  AND &&
   AND combines two or more expressions.
     - Returns true if all expressions were true, otherwise it returns false.

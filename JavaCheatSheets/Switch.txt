@@ -1,0 +1,31 @@
+Switch 
+ - Switch statement is useful for testing different values for a variable.
+ - Switch statement can be used with String, byte, char, short, and int.
+
+switch (value) {
+  case value1:
+    // do something;
+    break;
+  case value2:
+    // do something;
+    break;
+  default:
+    // in case non of the cases above are met, do this instead.
+}
+
+public static void main(String[] args) {
+  String carColor = "red";
+  switch (carColor) {
+    case "red":
+      System.out.println("Car color is red");
+      break;
+    case "green":
+      System.out.println("Car color is green");
+      break;
+    case "blue":
+      System.out.println("Car color is blue");
+      break;
+    default:
+      System.out.println("Car color is not available.");
+  }
+}

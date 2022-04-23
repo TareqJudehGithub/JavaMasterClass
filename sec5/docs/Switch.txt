@@ -1,3 +1,0 @@
-Switch 
- - Switch statement is useful for testing different values for a variable.
- - Switch statement can be used with String, byte, char, short, and int.
